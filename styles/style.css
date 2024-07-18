@@ -6,6 +6,21 @@
     padding: 0;
 }
 
+
+
+/* shared style */
+
+.primary-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    color: #ffff;
+    background-color: #E6533C;
+    border-radius: 45px;
+    border: none;
+}
+
+
 /* nav styles */
 
 .navbar{
@@ -14,7 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to bottom, #131313, #1B1B1B);
+    background: linear-gradient(to bottom, #131313, #212121);
     }
 .nav-title{
      font-size: 36px;
@@ -45,32 +60,66 @@
     display: none;
 }
 
+/* banner style */
 
-
-
-
-
-
-
-
-
-
-
-
-.navr{
-    display: flex;
+.banner{
+   display: flex;
+    background: linear-gradient(to top, #131313, #212121);
+    color: #ffff;
     justify-content: space-between;
-    width: 100%;
-    background: linear-gradient(to bottom, #131313, #1B1B1B);
-    padding: 50px 150px;
     align-items: center;
-    max-width: 1440px;
+    padding: 0px 150px;
+}
+.banner-text{
+    width: 500px;
+    padding-top: 50px;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.banner-discription{
+    margin-bottom: 25px;
+}
+.normal-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 16px 40px;
+    color: #ffff;
+    background-color: black;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+.banner-image{
+    position: relative;
+}
+.playlist-1{
+position: absolute;
+color: #ffff;
+margin-top: -200px;
+margin-left: -80px;
+border: 2px solid #222222;
+border-radius: 16px;
+padding: 20px 25px;
+backdrop-filter: blur(5px);
+}
+.playlist-2{
+position: absolute;
+color: #ffff;
+margin-left: 200px;
+margin-top: -400px;
+border: 2px solid #222222;
+border-radius: 16px;
+padding: 20px 25px;
+backdrop-filter: blur(5px);
 }
 
-.nav-si{
-    display: flex;
-}
-.naem{
-    list-style: none;
-    margin-right: 30px;
-}
+
+
+
+
+
+
+
+
