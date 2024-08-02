@@ -36,10 +36,48 @@
 .coloring-img{
     height: 300px;
 }
+.team-members{
+    padding: 50px 30px;
+}
+.title-of-team{
+    font-size: 30px;
+}
+.trainers{
+    height: 250px;
+    width: 250px;
+}
+.trainer-img{
+    height: 250px;
+    width: 250px;
+}
+
+
+.bmi-calculator{
+    width: 500px;
+    padding: 0px 30px;
+    text-align: left;
+}
+.calculation-part{
+    flex-direction: column;
+    padding: 50px 30px;
+}
+.bmi-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
 
 
 
 
+
+.footer{
+    padding: 50px 30px;
+    gap: 50px;
+    grid-template-columns: repeat( 1,1fr);
+}
+.for-hr{
+    padding: 0px 30px;
+}
 
 
 }
@@ -109,20 +147,13 @@
 }
 
 
-
-
-
-
 .exercises{
     height: 600px;
     padding: 50px 20px;
 }
-
-
 .exercise-div-1{
     width: 290px;
 }
-
 .exercise-div-2{
     height: 400px;
     width: 90%;
@@ -133,9 +164,6 @@
     width: 90%;
     margin-top: 25px;
  }
-
-
-
 .exercise-1{
     grid-column: 1/span 6;
     grid-row: 1/span 4;
@@ -161,8 +189,6 @@
     grid-column: 7/span 6;
     grid-row: 9/span 4;
  }
-
-
  .img-1-color{
     grid-column: 1/span 6;
     grid-row: 1/span 4;
@@ -171,9 +197,6 @@
     grid-column: 7/span 6;
     grid-row: 1/span 4;
   }
-
-
-
   .img-3-color{
     grid-column: 1/span 5;
     grid-row: 5/span 4;
@@ -190,16 +213,49 @@
     grid-column: 7/span 6;
     grid-row: 9/span 4;
   }
-
-
-
-
   .hide-for-mubile{
     display: none;
  }
   .hiden-text{
     display: block;
  }
+ .team-members{
+    padding: 50px 20px;
+}
+.introducing-part{
+    grid-template-columns: repeat(1,1fr);
+}
+.trainers{
+    width: 315px;
+    margin-bottom: 30px;
+}
+.trainer-img{
+    width: 315px;
+}
+
+
+.bmi-calculator{
+    padding: 0px 20px;
+    text-align: left;
+}
+.calculation-part{
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+
+.footer{
+    padding: 50px 20px;
+    grid-template-columns: repeat( 1,1fr);
+    gap: 50px;
+}
+.about-us-container{
+   flex-direction: column;
+    gap: 50px;
+}
+.for-hr{
+    padding: 0px 20px;
+}
 
 
 

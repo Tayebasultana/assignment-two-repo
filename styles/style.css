@@ -10,6 +10,12 @@
 
 /* shared style */
 
+
+.primary-sub-title{
+
+}
+
+
 .primary-btn{
     font-size: 18px;
     font-weight: 600;
@@ -243,7 +249,6 @@ padding: 50px 150px;
    margin-top: 100px;
    position: absolute;
    z-index: 4;
-   /* padding-bottom: 200px; */
 }
 .img-1-color{
     grid-column: 1/span 3;
@@ -304,3 +309,182 @@ padding: 50px 150px;
  .hiden-text{
     display: none;
  }
+
+
+/* calculator */
+
+
+
+.calculator{
+    background-color: black;
+    color: #ffff;
+}
+
+.bmi-calculator{
+    text-align: center;
+}
+.bmi-title{
+    font-size: 45px;
+}
+
+.calculation-part{
+    background-color: #212121;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.bmi-chart-title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+th{
+   font-size: 20px;
+}
+
+
+.text-about-bmi{
+    width: 600px;
+}
+
+.information-about-body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 25px;
+}
+.information-about-body > input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.693);
+}
+#activity-factor{
+    grid-column: span 2;
+}
+.calculate-button{
+    margin-top: 25px;
+}
+
+
+
+/* team-members */
+
+
+.team-members{
+    color: #ffff;
+    background-color: black;
+    padding: 50px 150px;
+}
+.text-about-team-member{
+    text-align: center;
+}
+.title-of-team{
+    font-size: 45px;
+}
+
+.introducing-part{
+   
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 28px;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+ .trainers{
+    height: 300px;
+    width: 355px;
+   /* border: 2px solid #E6533C; */
+    border-radius: 16px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+ }
+
+ .trainer-img{
+    height: 300px;
+    width: 355px;
+    border-radius: 16px;
+    position: relative;
+    filter: brightness(70%);
+ }
+ .name-and-title{
+   position: absolute;
+   z-index: 7;
+  margin-top: -60px;
+  margin-left: 15px;
+ }
+
+/* footer */
+
+
+.footer{
+    background-color: #212121;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 60px 200px;
+    gap: 160px;
+}
+.important-of-fitness{
+    width: 400px;
+}
+.fitness-title{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+.fitness-benifit{
+    color: rgba(255, 255, 255, 0.5);
+}
+.about-us-container{
+    display: flex;
+    gap: 160px;
+}
+.about-us{
+    width: 200px;
+}
+.get-started{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffff;
+}
+.links{
+    margin-top: 40px;
+    list-style: none;
+}
+.link-with-next-page{
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 25px;
+}
+.for-hr{
+    background-color: #212121;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 0px 150px;
+}
+hr{
+   filter: brightness(50%);
+}
+.last-p{
+    margin-top: 25px;
+}
