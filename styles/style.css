@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Ephesis&family=Herr+Von+Muellerhoff&family=IM+Fell+French+Canon:ital@0;1&family=Kalnia+Glaze:wght@100..700&family=Monsieur+La+Doulaise&family=Moon+Dance&family=Niconne&family=Passions+Conflict&family=Playball&family=Playwrite+IN:wght@100..400&family=Srisakdi:wght@400;700&family=The+Nautigal:wght@400;700&family=WindSong:wght@400;500&display=swap');
 
-
+  
 
 *{
     margin: 0;
@@ -81,10 +82,16 @@
     padding-top: 50px;
 }
 .banner-title{
-    font-size: 60px;
+    font-size: 75px;
     font-weight: bold;
     margin-bottom: 25px;
 }
+.beau-rivage-regular {
+    font-family: "Beau Rivage", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 0;
+  }
 .banner-discription{
     margin-bottom: 25px;
 }
@@ -109,6 +116,9 @@ border: 2px solid #222222;
 border-radius: 16px;
 padding: 20px 25px;
 backdrop-filter: blur(5px);
+display: flex;
+gap: 10px;
+align-items: center;
 }
 .playlist-2{
 position: absolute;
@@ -120,6 +130,10 @@ border-radius: 16px;
 padding: 20px 25px;
 backdrop-filter: blur(5px);
 }
+.number-of-videos-2{
+    font-size: 40px;
+    font-weight: bold;
+}
 
 /* main section  */
 
@@ -128,7 +142,7 @@ backdrop-filter: blur(5px);
 .fitness-habits{
     background-color: black;
     color: #ffff;
-    padding: 0px 150px;
+    padding: 50px 150px;
 }
 .changing-habit{
     text-align: center;
@@ -146,7 +160,6 @@ backdrop-filter: blur(5px);
 .roadmap > div {
     width: 250px;
     text-align: center;
-    margin-bottom: 40px;
 }
 .img-of-roadmap{
     border-radius: 50%;
@@ -189,7 +202,7 @@ padding: 50px 150px;
 /* exercises */
 
 .exercises{
-    height: 700px;
+    height: 620px;
     background-color: black;
     color: #ffff;
     padding: 50px 150px;
@@ -208,7 +221,7 @@ padding: 50px 150px;
    margin-top: 40px;
    position: absolute;
    z-index: -5;
-   margin-top: 100px;
+   /* margin-top: 100px; */
 }
 .exercise-1{
    grid-column: 1/span 3;
@@ -246,7 +259,7 @@ padding: 50px 150px;
    grid-template-columns: repeat(12,1fr);
    grid-template-rows: repeat(12,1fr);
    height: 500px;
-   margin-top: 100px;
+   margin-top: 40px;
    position: absolute;
    z-index: 4;
 }
@@ -318,6 +331,7 @@ padding: 50px 150px;
 .calculator{
     background-color: black;
     color: #ffff;
+    padding: 50px 0px;
 }
 
 .bmi-calculator{
@@ -388,7 +402,7 @@ th{
 .team-members{
     color: #ffff;
     background-color: black;
-    padding: 50px 150px;
+    padding: 50px 150px 100px ;
 }
 .text-about-team-member{
     text-align: center;
