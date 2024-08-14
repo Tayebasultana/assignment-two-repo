@@ -7,14 +7,17 @@
     padding: 0;
 }
 
-
+body{
+    width: 100%;
+}
 
 /* shared style */
 
 
-.primary-sub-title{
-
+.primary-sub-title ,td{
+   color: rgba(255, 255, 255, 0.5);
 }
+
 
 
 .primary-btn{
@@ -25,6 +28,7 @@
     background-color: #E6533C;
     border-radius: 45px;
     border: none;
+    margin-top: 25px;
 }
 
 
@@ -92,9 +96,7 @@
     font-size: 2em;
     line-height: 0;
   }
-.banner-discription{
-    margin-bottom: 25px;
-}
+
 .normal-btn{
     font-size: 18px;
     font-weight: 600;
@@ -103,6 +105,7 @@
     background-color: black;
     border-radius: 45px;
     border: 2px solid white;
+    margin-top: 25px;
 }
 .banner-image{
     position: relative;
@@ -189,9 +192,7 @@ padding: 50px 150px;
     font-size: 45px;
     margin-bottom: 25px;
 }
-.jogging-discription{
-    margin-bottom: 25px;
-}
+
 .img-about-jogging{
     width: 400px;
     border-radius: 16px;
